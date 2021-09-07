@@ -1,6 +1,6 @@
 ## MY Portfolio
 
-![Portfolio Website](public\images\Portfolio.png)
+![Portfolio Website](https://github.com/rishabhrathore055/MyPortfolio/blob/main/public/images/Portfolio.png)
 
 ### Show Your Support
 Give a ⭐ if You Like This Project
