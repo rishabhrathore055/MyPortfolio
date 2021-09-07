@@ -23,7 +23,6 @@ const Timeline = () => {
       scroll(carouselRef.current, scrollLeft);
     }
   }
-
   const handleScroll = () => {
     if (carouselRef.current) {
       const index = Math.round((carouselRef.current.scrollLeft / (carouselRef.current.scrollWidth * 0.7)) * TimeLineData.length);
@@ -32,8 +31,9 @@ const Timeline = () => {
     }
   }
 
-  // // snap back to beginning of scroll when window is resized
-  // // avoids a bug where content is covered up if coming from smaller screen
+  // snap back to beginning of scroll when window is resized
+  // avoids a bug where content is covered up if coming from smaller screen
+  
   useEffect(() => {
     const handleResize = () => {
       scroll(carouselRef.current, 0);
@@ -48,19 +48,20 @@ const Timeline = () => {
       <SectionText>
 Currently I'm Sophomore at Indore Institue Of Science And TEchnology. Completing B.Tech In Information Technology. I'm a learning enthusiast or a fast learner having a deep interest in Data Science, Machine Learning, and its surrounding fields. also, I explore many things like Web Development, C, C++, Python, UI or UX, Competitive programming, open-source. 
       </SectionText>
-      <CarouselContainer ref={carouselRef}>
+      <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
-        {TimeLineData.map((item,index)=>(
-            <CarouselMobileScrollNode key={index} final={index ===TOTAL_CAROUSEL_COUNT -1}>
-             <CarouselItem
-               index ={index}
-               id = {`carousel__item-${index}`}
-               active = {activeItem}
-               onClick={(e)=> handleClick(e,index)}
-               >
-                 <CarouselItemTitle>
-                   {item.year}
-                   <CarouselItemImg
+          {TimeLineData.map((item, index) => (
+            <CarouselMobileScrollNode
+              key={index}
+              final={index === TOTAL_CAROUSEL_COUNT - 1}>
+              <CarouselItem
+                index={index}
+                id={`carousel__item-${index}`}
+                active={activeItem}
+                onClick={(e) => handleClick(e, index)}>
+                <CarouselItemTitle>
+                  {`${item.year}`}
+                  <CarouselItemImg
                     width="208"
                     height="6"
                     viewBox="0 0 208 6"
@@ -90,11 +91,11 @@ Currently I'm Sophomore at Indore Institue Of Science And TEchnology. Completing
                       </linearGradient>
                     </defs>
                   </CarouselItemImg>
-                 </CarouselItemTitle>
-                 <CarouselItemText>{item.text}</CarouselItemText>
-             </CarouselItem>
+                </CarouselItemTitle>
+                <CarouselItemText>{item.text}</CarouselItemText>
+              </CarouselItem>
             </CarouselMobileScrollNode>
-        ))}
+          ))}
         </>
       </CarouselContainer>
       <CarouselButton>
@@ -111,6 +112,7 @@ Currently I'm Sophomore at Indore Institue Of Science And TEchnology. Completing
 
         ))}
       </CarouselButton>
+      <SectionDivider/>
 
     </Section>
   );

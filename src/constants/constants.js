@@ -38,9 +38,7 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: 2018, text: 'Completed High School From Madhya Pradesh Borad Of Education.', },
+  { year: 2020, text: 'Completed Higher Secondary Education In Mathematics & Science From MPBSE', },
+  { year: 2021, text: "Doing Bachelor's of Technology In Information Technology.", },
 ];
