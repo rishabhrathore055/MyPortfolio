@@ -1,6 +1,6 @@
 import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin,AiFillTwitterSquare } from 'react-icons/ai';
-import {FaPhone,FaEnvelope,FaDev} from 'react-icons/fa';
+import {FaPhone,FaEnvelopeOpen,FaDev} from 'react-icons/fa';
 
 import { SocialIcons } from '../Header/HeaderStyles';
 import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
@@ -14,13 +14,13 @@ const Footer = () => {
       <LinkItem href="tel:877-017-0974">877-017-0974</LinkItem>
       </LinkColumn>
       <LinkColumn>
-      <LinkTitle>Email <FaEnvelope size="1.3rem" /></LinkTitle>
+      <LinkTitle>Email <FaEnvelopeOpen size="1.4rem" /></LinkTitle>
       <LinkItem href="mailto:rishabhrathore055@gmail.com">rishabhrathore055@gmail.com</LinkItem>
       </LinkColumn>
      </LinkList>
     <SocialIconsContainer>
       <CompanyContainer>
-        <Slogan>Work Hard Until Your Signature Becomes Autograph</Slogan>
+        <Slogan>“Work Hard Until Your Signature Becomes Autograph"</Slogan>
       </CompanyContainer>
       <SocialContainer>
       <SocialIcons href="https://www.linkedin.com/in/Rishabhrathore">
