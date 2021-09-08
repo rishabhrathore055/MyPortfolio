@@ -1,7 +1,6 @@
 import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin,AiFillTwitterSquare } from 'react-icons/ai';
-import {FaPhone,FaEnvelopeOpen,FaDev} from 'react-icons/fa';
-
+import {FaBuilding,FaPhone,FaEnvelopeOpen,FaDev} from 'react-icons/fa';
 import { SocialIcons } from '../Header/HeaderStyles';
 import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
 
@@ -10,11 +9,11 @@ const Footer = () => {
    <FooterWrapper>
      <LinkList>
       <LinkColumn>
-      <LinkTitle>Call  <FaPhone Size="1.4rem"/></LinkTitle>
-      <LinkItem href="tel:877-017-0974">877-017-0974</LinkItem>
+      <LinkTitle> <FaBuilding size="1.3rem"/> Address</LinkTitle>
+      <LinkItem href="https://goo.gl/maps/i6NtoMhdBTeadccG9">Indore, India</LinkItem>
       </LinkColumn>
       <LinkColumn>
-      <LinkTitle>Email <FaEnvelopeOpen size="1.4rem" /></LinkTitle>
+      <LinkTitle><FaEnvelopeOpen size="1.3rem" /> Email </LinkTitle>
       <LinkItem href="mailto:rishabhrathore055@gmail.com">rishabhrathore055@gmail.com</LinkItem>
       </LinkColumn>
      </LinkList>

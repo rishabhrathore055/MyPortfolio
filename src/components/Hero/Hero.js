@@ -12,8 +12,8 @@ const Hero = (props) => (
      I'm Rishabh Rathore 
      </SectionTitle>
   <SectionText>
-  A Sophomore at IIST, Indore. Completing B.Tech In Information Technology.
-  I'm a learning enthusiast or a fast learner having a deep interest in Data Science, Machine Learning, and its surrounding fields.
+  A passionate Python programmer or Data Science and Machine learning enthusiast.
+Currently Learning Data Structure & algorithms, Numpy, Panas, Matplotlib. I also love to contribute to Open Sources.
   </SectionText>
   <Button onClick={()=>window.location = 'https://twitter.com/rishabh_055'}>Know More</Button>
   </LeftSection>

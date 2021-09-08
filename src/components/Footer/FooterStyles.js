@@ -145,17 +145,19 @@ export const LinkColumn = styled.div`
 	width: 100%;
 `
 export const LinkTitle = styled.h4`
-	font-style: normal;
+	font-style: bold;
 	font-weight: 600;
+	letter-spacing: 2px;
 	font-size: 14px;
-	line-height: 24px;
+	line-height: 20px;
 	text-transform: uppercase;
-	color: rgba(255, 255, 255, 0.4);
+	color: rgba(255, 255, 255, 0.5);
 	margin-bottom: 16px;
 
 	@media ${props => props.theme.breakpoints.sm} {
 		font-size: 10px;
 		line-height: 12px;
+		letter-spacing: 1px;
 		margin-bottom: 8px;
 	}
 `
