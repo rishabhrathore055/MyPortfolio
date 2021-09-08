@@ -44,9 +44,9 @@ const Timeline = () => {
 
   return (
     <Section id="about">
-      <SectionTitle>Aboute Me</SectionTitle>
+      <SectionTitle>About Me</SectionTitle>
       <SectionText>
-Currently I'm Sophomore at Indore Institue Of Science And TEchnology. Completing B.Tech In Information Technology. I'm a learning enthusiast or a fast learner having a deep interest in Data Science, Machine Learning, and its surrounding fields. also, I explore many things like Web Development, C, C++, Python, UI or UX, Competitive programming, open-source. 
+Currently I'm Sophomore at Indore Institue Of Science And Technology. Completing B.Tech In Information Technology. I'm a learning enthusiast or a fast learner having a deep interest in Data Science, Machine Learning, and its surrounding fields. also, I explore many things like Web Development, C, C++, Python, UI or UX, Competitive programming, open-source. 
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

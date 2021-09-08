@@ -1,13 +1,13 @@
 import React from 'react';
 
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
-import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
+import { Box, Boxes, BoxNum, BoxText,BoxButton } from './AcomplishmentsStyles';
 
 const data = [
-  { number: 20, text: 'Open Source Contributions'},
-  { number: 80, text: 'Twitter Followers', },
-  { number: 40, text: 'Github Followers', },
-  { number: 2500, text: 'Instagram Followers', }
+  { number: 20, text: 'Open Source Contributions',link : 'https://github.com/'},
+  { number: 80, text: 'Twitter Followers',link : 'https://github.com/' },
+  { number: 40, text: 'Github Followers', link : 'https://github.com/'},
+  { number: 2500, text: 'Instagram Followers', link : 'https://github.com/' }
 ];
 
 const Acomplishments = () => (

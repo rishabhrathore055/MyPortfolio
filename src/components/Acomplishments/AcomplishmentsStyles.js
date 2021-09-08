@@ -84,6 +84,7 @@ export const BoxText = styled.p`
   }
 `
 
+
 export const Join = styled.div`
   display: flex;
   max-width: 1040px;
