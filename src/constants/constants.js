@@ -31,8 +31,8 @@ export const projects = [
     description: "The Programming-Hub is a Website Bulid Using HTML and BootStrap.",
     image: '/images/4.png',
     tags: ['HTML', 'JavaScript', 'BootStrap'],
-    trylink: 'https://github.com/rishabhrathore055/Programming-hub',
-    visit: 'https://rishabhrathore055.github.io/Programming-hub/',
+    trylink: 'https://rishabhrathore055.github.io/Programming-hub/',
+    visit: 'https://github.com/rishabhrathore055/Programming-hub',
     id: 3,
   },
 ];

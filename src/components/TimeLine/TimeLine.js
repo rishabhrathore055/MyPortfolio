@@ -46,7 +46,7 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-Currently I'm Sophomore at Indore Institue Of Science And Technology. Completing B.Tech In Information Technology. I'm a learning enthusiast or a fast learner having a deep interest in Data Science, Machine Learning, and its surrounding fields. also, I explore many things like Web Development, C, C++, Python, UI or UX, Competitive programming, open-source. 
+      Currently, I'm a Sophomore at Indore Institue of Science And Technology Competing B.Tech In Information Technology. I'm a learning enthusiast or a fast learner having a deep interest in Data Science, Machine Learning, and its surrounding fields also, I explore many things like Web Development, C, C++, Python, UI UX, Competitive programming, Open-source. 
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
