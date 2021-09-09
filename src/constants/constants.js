@@ -37,6 +37,7 @@ export const projects = [
   },
 ];
 
+
 export const TimeLineData = [
   { year: 2018, text: 'Completed High School From Madhya Pradesh Borad Of Education.', },
   { year: 2020, text: 'Completed Higher Secondary Education In Mathematics & Science From MPBSE', },
