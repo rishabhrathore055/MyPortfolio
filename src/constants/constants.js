@@ -10,7 +10,7 @@ export const projects = [
   },
   {
     title: 'Rock Paper Scissors Game',
-    description:"Rock paper scissors is a classic game With aawesome UI and Simple rules for creating a perfect for a beginner game project.",
+    description:"This rock, paper, scissors game has a significant user interface that uses javaScript logic and HTML and CSS for the UI.",
     image: '/images/2.jpg',
     tags: ['HTML','CSS', 'JavaScript'],
     trylink: ' https://rishabhrathore055.github.io/Rock_Paper_Scissors/',
