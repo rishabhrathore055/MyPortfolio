@@ -14,12 +14,12 @@ import {
 
 const data = [
   {
-    title:20,
+    title:30,
     text: "Open Source Contributions"
   },
-  { title: 80, 
+  { title: 220, 
     text: "Twitter Followers"},
-  { title: 40,
+  { title: 45,
     text: "Github Followers"},
   { title: 2500, 
     text: "Instagram Followers" },
