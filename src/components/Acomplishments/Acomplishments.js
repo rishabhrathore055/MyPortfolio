@@ -14,7 +14,7 @@ import {
 
 const data = [
   {
-    title:30,
+    title:10,
     text: "Open Source Contributions"
   },
   { title: 220, 
