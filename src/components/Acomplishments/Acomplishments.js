@@ -17,12 +17,10 @@ const data = [
     title:10,
     text: "Open Source Contributions"
   },
-  { title: 220, 
+  { title: 280, 
     text: "Twitter Followers"},
-  { title: 45,
-    text: "Github Followers"},
-  { title: 2500, 
-    text: "Instagram Followers" },
+  { title: 50,
+    text: "Github Followers"}
 ];
 
 const Acomplishments = () => (
