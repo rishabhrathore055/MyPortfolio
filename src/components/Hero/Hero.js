@@ -13,7 +13,7 @@ const Hero = (props) => (
      </SectionTitle>
   <SectionText>
   A passionate Python programmer or Data Science and Machine learning enthusiast.
-Currently Learning Data Structure & algorithms, Numpy, Panas, Matplotlib. I also love to contribute to Open Sources.
+Currently Learning Data Analytics,Data Structure & algorithms, SQL, Pandas, Matplotlib. I also love to contribute to Open Sources.
   </SectionText>
   <Button onClick={()=>window.location = 'https://twitter.com/rishabh_055'}>Know More</Button>
   </LeftSection>
