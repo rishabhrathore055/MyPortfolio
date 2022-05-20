@@ -17,7 +17,7 @@ const data = [
     title:10,
     text: "Open Source Contributions"
   },
-  { title: 280, 
+  { title: 290, 
     text: "Twitter Followers"},
   { title: 50,
     text: "Github Followers"}

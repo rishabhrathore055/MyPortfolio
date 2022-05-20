@@ -1,12 +1,21 @@
 export const projects = [
   {
+    title: 'Movie Recommendation-app',
+    description: "A Content-based movie recommendation system that uses text Vectorization method Bag of Words (BoW) Term Frequency, and some advanced Python libraries like Nltk, Numpy, pandas, and streamlit for a better User Interface.",
+      image: '/images/5.png',
+      tags: ['Python','Numpy','Pandas','streamlit' ,'NLTK','Tkinter'],
+    trylink: 'https://github.com/rishabhrathore055/Movie-Recommendation-app',
+    visit: 'https://github.com/rishabhrathore055/Movie-Recommendation-app',
+    id: 0,
+  },
+  {
     title: 'Weather Application',
     description: "The Weather application using tkinter. The GUI app will provide information about temperature, latitude, longitude, date, time, year, countrylink of origin, and other details about the current weather of a particular city with their countrylink",
       image: '/images/1.jpg',
       tags: ['Python', 'OpenWeatherAPI','Tkinter'],
     trylink: 'https://github.com/rishabhrathore055/Weather_App_Using_python',
     visit: 'https://github.com/rishabhrathore055/Weather_App_Using_python',
-    id: 0,
+    id: 1,
   },
   {
     title: 'Rock Paper Scissors Game',
@@ -15,15 +24,6 @@ export const projects = [
     tags: ['HTML','CSS', 'JavaScript'],
     trylink: ' https://rishabhrathore055.github.io/Rock_Paper_Scissors/',
     visit: 'https://github.com/rishabhrathore055/Rock_Paper_Scissors',
-    id: 1,
-  },
-  {
-    title: 'Calculator',
-    description: "Calculator Built with JavaScript.",
-      image: '/images/3.jpg',
-      tags: ['HTML', 'CSS','JavaScript'],
-    trylink: 'https://rishabhrathore055.github.io/Calculator/',
-    visit: 'https://github.com/rishabhrathore055/Calculator',
     id: 2,
   },
   {
